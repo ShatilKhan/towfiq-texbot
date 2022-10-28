@@ -17,6 +17,11 @@
 .custom_navbar .navbar .nav-link ,.custom_navbar .navbar-brand{
   color: white;
 }
+
+.custom_navbar .navbar .nav-link:hover,.custom_navbar .navbar-brand:hover{
+  color:rgb(37, 222, 80);
+}
+
 .green{
   color: #01B041 !important;
 
@@ -125,13 +130,13 @@ width: 17rem;
 }
 
 
- .col-lg-5, .col-lg-3{
+ .col-lg-5, .col-lg-4, .col-lg-3{
   padding: 5px;
   transition: transform .5s ease;
  }
 
 
-.col-lg-5:hover, .col-lg-3:hover{
+.col-lg-5:hover, .col-lg-4:hover, .col-lg-3:hover{
   transform: scale(1.1);
   
 }
