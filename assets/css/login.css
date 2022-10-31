@@ -141,6 +141,19 @@ width: 17rem;
   
 }
 
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .col-lg-3{
+    transform: scale(.5);
+    align-content: center;
+    width: 200%;
+   }
+   
+   .img-fluid{
+    transform: scale(.5);
+   }
+   
+}
+
 .share_link_home{
  background: rgb(1,176,65);
  background: linear-gradient(180deg, rgba(1,176,65,1) 74%, rgba(136,201,70,1) 100%);
