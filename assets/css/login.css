@@ -4,6 +4,8 @@
   height: 100vh;
 
 }
+
+
 .custom_navbar{
   background: rgba(2, 1, 34, 0.5);
   box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.25);
@@ -130,29 +132,9 @@ width: 17rem;
 }
 
 
- .col-lg-5, .col-lg-4, .col-lg-3{
-  padding: 5px;
-  transition: transform .5s ease;
- }
 
 
-.col-lg-5:hover, .col-lg-4:hover, .col-lg-3:hover{
-  transform: scale(1.1);
-  
-}
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  .col-lg-3{
-    transform: scale(.5);
-    align-content: center;
-    width: 200%;
-   }
-   
-   .img-fluid{
-    transform: scale(.5);
-   }
-   
-}
 
 .share_link_home{
  background: rgb(1,176,65);
@@ -536,3 +518,7 @@ border-radius: 10px;
 
   text-shadow: 0px 0px 4px #5E717B;
 }
+
+
+
+
